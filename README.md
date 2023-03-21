@@ -3,7 +3,7 @@ Technical test for Onebox creation of a shopping cart
 
 # Initial configuration 🚀:
 ```bash
-mvn clean package
+mvn clean install
 docker-compose build
 docker-compose up
 ```
