@@ -59,6 +59,40 @@
 			"response": []
 		},
 		{
+			"name": "http://localhost:8080/api/v1/cart/641a16e7bbfba417a384a0dd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"products\": {\r\n    \"product1\": {\r\n      \"id\": 1,\r\n      \"description\": \"Product 1\",\r\n      \"amount\": 10.0\r\n    }\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/cart/641a16e7bbfba417a384a0dd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cart",
+						"641a16e7bbfba417a384a0dd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "http://localhost:8080/api/v1/cart/update",
 			"request": {
 				"method": "PUT",
