@@ -1,0 +1,18 @@
+[
+  {
+    "description": "Fender Stratocaster",
+    "amount": 150.0
+  },
+  {
+    "description": "Gibson Les Paul",
+    "amount": 600.75
+  },
+  {
+    "description": "Fender Telecaste",
+    "amount": 565.50
+  },
+  {
+    "description": "Ibanez JEM",
+    "amount": 1299.99
+  }
+]

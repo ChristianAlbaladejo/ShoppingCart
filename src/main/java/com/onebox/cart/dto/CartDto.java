@@ -1,0 +1,13 @@
+package com.onebox.cart.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import java.util.List;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class CartDto extends BaseDto {
+    private List<ProductDto> products;
+}
